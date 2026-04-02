@@ -1,0 +1,23 @@
+A fully custom, stadium‑themed sports collectibles storefront built from scratch using pure HTML, CSS, and JavaScript — enhanced through AI‑assisted iteration for speed, refinement, and creative exploration.
+
+This project blends immersive sports‑arena aesthetics with clean UX/UI design to showcase real eBay inventory in a dynamic, interactive interface. Features include animated floating sports balls, stadium lighting effects, touchdown audio feedback, and a responsive product grid with custom JavaScript sorting.
+
+Every component — from the glowing basketball‑orange buttons to the atmospheric lighting cycle — was hand‑designed and implemented without frameworks or templates. AI was used as a collaborative tool to accelerate prototyping, refine code, and support creative decision‑making, while all direction, structure, and final execution were led by the developer.
+
+Highlights:
+
+Custom stadium‑themed UI built entirely from scratch
+
+Floating sports ball animation system
+
+Touchdown sound effects triggered by visual events
+
+Responsive product grid linked to live eBay listings
+
+Price sorting (Low → High) using DOM manipulation
+
+Cohesive branding, color, and motion design
+
+AI‑assisted workflow for rapid iteration and refinement
+
+A modern, interactive web experience that demonstrates hybrid UX/UI design, front‑end development, and creative technical execution — powered by human direction and AI collaboration.

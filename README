@@ -1,0 +1,64 @@
+# Alberta Sports Collectibles  
+A dynamic, animated, stadium‑themed storefront showcasing curated sports collectibles from the Alberta Sports Collectibles eBay store.
+
+This project blends **sports‑arena energy**, **floating animated balls**, **stadium lighting effects**, and a **clean product grid** that pulls real listings directly from eBay. Built for speed, clarity, and visual impact.
+
+---
+
+## 🚀 Features
+
+### 🟧 Animated Stadium Theme  
+- Full‑screen football‑field background  
+- Dynamic lighting using `stadiumFlash` + `teamCycle` animations  
+- Floating sports balls (basketball, football, baseball, soccer)  
+- Touchdown sound effect triggered on each ball spawn  
+
+### 🛒 Product Grid  
+- Responsive grid layout  
+- Each card includes:
+  - Product image  
+  - Title  
+  - Price  
+  - Direct link to the eBay listing  
+- Supports unlimited items  
+
+### 🔽 Sorting System  
+- **Sort: Low → High** button  
+- Reorders all product cards instantly  
+- No page reload  
+- Works with any number of items  
+
+### 🔊 Touchdown Sound  
+- Plays automatically when a floating ball appears  
+- Uses `touchdown.mp3` stored locally  
+
+---
+
+## 📁 Project Structure
+
+
+---
+
+## 🧩 How It Works
+
+### 1. **Floating Balls**
+JavaScript spawns a random sports ball every 1.8 seconds.  
+Each ball:
+- animates upward  
+- rotates  
+- fades out  
+- triggers the touchdown sound  
+
+### 2. **Product Cards**
+Cards are manually added to the `.product-grid` section in `index.html`.  
+Each card follows this structure:
+
+```html
+<article class="product-card">
+  <img src="IMAGE_URL" alt="DESCRIPTION">
+  <h3>Product Title</h3>
+  <p class="price">C$0.00</p>
+  <a href="EBAY_LINK" target="_blank" class="btn">View on eBay</a>
+</article>
+
+
